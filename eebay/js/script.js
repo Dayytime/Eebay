@@ -220,7 +220,7 @@ function displayCart(){
                     <button type="button" onclick="addOne('${item.tag}')"><ion-icon name="caret-forward-circle"></ion-icon></button>
                </div>
                <div class="total">
-                    $${item.inCart * item.price}
+                    $${Math.round(item.inCart * item.price * 100) / 100}
                </div>
                `;
           });
