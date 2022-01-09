@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+section {
+  height: 110vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  color: coral;
+  font-family: "Roboto";
+  text-align: center center;
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-size: 500%;
+}
+
+.image-1 {
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1600&h=800&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2016%2F10%2Fhow-to-hold-coffee-mug-MUGHOLD1016.jpg");
+}
+
+.image-2 {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frenewsable.net%2Fwp-content%2Fuploads%2F2017%2F06%2Fwhen-does-coffee-go-bad.jpg&f=1&nofb=1);
+}
+
+body {
+  text-align: center;
+  background-color: rgb(144, 177, 186);
+  font-family: "Roboto";
+}
+
+p,
+h1,
+hr {
+  line-height: 1.4;
+  width: 90%;
+  height: 20px solid #fff;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.coffeegoodbad {
+  font-size: 350%;
+}
+
+.coffeefacts {
+  font-size: 110%;
+}
+
+.btn-1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background: #308f19;
+  width: 160px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  border: none;
+}
+
+.btn-1:hover,
+.btn-1:focus,
+.btn-1:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.btn-2 {
+  margin-left: 5%;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background: #961d1d;
+  width: 160px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  border: none;
+}
+
+.btn-2:hover,
+.btn-2:focus,
+.btn-2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

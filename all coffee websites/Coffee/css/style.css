@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+section {
+  height: 110vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  color: coral;
+  font-family: "Roboto";
+  text-align: center center;
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-size: 500%;
+}
+
+.image-1 {
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1600&h=800&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2016%2F10%2Fhow-to-hold-coffee-mug-MUGHOLD1016.jpg");
+}
+
+.image-2 {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frenewsable.net%2Fwp-content%2Fuploads%2F2017%2F06%2Fwhen-does-coffee-go-bad.jpg&f=1&nofb=1);
+}
