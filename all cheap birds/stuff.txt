@@ -1,0 +1,69 @@
+* {
+  background-color: darkcyan;
+  color: white;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+DONE^
+
+.resize {
+  width: 150px;
+  height: auto;
+}
+
+Done^
+
+p,
+h1,
+hr {
+  line-height: 1.4;
+  width: 90%;
+  height: 20px solid #fff;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+DONE^
+
+p {
+  font-size: 25px;
+}
+DONE^
+
+.namesize {
+  font-size: 40px;
+}
+
+DONE^
+
+#titlesize {
+  font-size: 50px;
+}
+
+DONE^
+
+.birdpic {
+  width: 459px;
+  height: auto;
+}
+span {
+  text-decoration: line-through;
+  font-size: 27px;
+}
+
+DONE^
+
+.container {
+  background: #90b1ba;
+  padding: 20px 30px;
+  border: 4px solid #809498;
+  border-radius: 5px;
+  max-width: 100%;    <-------- not done
+}
+
+
+  font-size: larger;
+ease-in
